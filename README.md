@@ -182,14 +182,39 @@ Verified domain user authentication with `ACME\mtorres`, confirmed IT security g
 
 [View Domain-Joined Workstation Documentation](04-Domain-Joined-Workstation/README.md)
 
-5. Group Policy Management
+
+### 05 - Group Policy Management
+
+Created and deployed two Active Directory Group Policy Objects (GPOs) to centrally manage Windows 11 workstation settings and departmental access restrictions.
+
+**Workstation Logon Policy:** Configured an ACME Corporation authorized-access notice and verified successful deployment using `gpresult` and the Windows sign-in screen.
+
+**Sales Control Panel Restriction:** Created a user-based GPO linked to the Sales OU, restricting access to Control Panel and Windows Settings. Verified successful policy application and confirmed the restriction while signed in as a Sales employee.
+
+[View Group Policy Management Documentation](05-Group-Policy-Management/README.md)
+
 
 Each section will include configuration steps, screenshots, verification results, and skills demonstrated.
 
+
 ## Project Status
 
-**In Progress**
+**Core Lab Configuration Complete — Additional Exercises Planned**
 
-Completed the initial Active Directory deployment, organizational structure, domain user authentication, workstation domain join, and two Group Policy exercises.
+Successfully deployed and configured an Active Directory environment using Windows Server 2025 and Windows 11 Pro.
 
-Additional administration exercises and documentation will be added as the lab develops.
+Completed the following:
+
+- Windows Server installation and configuration
+- Active Directory Domain Services deployment
+- DNS configuration and verification
+- Organizational Unit creation
+- Employee account and security group management
+- Windows 11 domain joining
+- Domain authentication verification
+- Workstation Group Policy deployment
+- Department-specific access restrictions
+
+All five foundational lab sections have been documented with configuration steps, screenshots, and verification results.
+
+Additional Active Directory administration and troubleshooting exercises will be added as the lab develops.
