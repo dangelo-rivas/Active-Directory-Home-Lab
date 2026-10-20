@@ -194,12 +194,25 @@ Created and deployed two Active Directory Group Policy Objects (GPOs) to central
 [View Group Policy Management Documentation](05-Group-Policy-Management/README.md)
 
 
+### 06 - Active Directory Troubleshooting
+
+Simulated and resolved common Active Directory support incidents involving user authentication, account management, permissions, and domain connectivity.
+
+**Completed Scenarios:**
+- 01 - Disabled User Account: Diagnosed a failed Windows domain login, identified a disabled account in Active Directory, restored access, and verified successful authentication.
+
+Additional troubleshooting scenarios are in progress.
+
+[View Active Directory Troubleshooting Documentation](06-Active-Directory-Troubleshooting/README.md)
+
+
 Each section includes configuration steps, screenshots, verification results, and skills demonstrated.
+
 
 
 ## Project Status
 
-**Core Lab Configuration Complete — Additional Exercises Planned**
+**Core Lab Configuration Complete — Active Directory Troubleshooting In Progress**
 
 Successfully deployed and configured an Active Directory environment using Windows Server 2025 and Windows 11 Pro.
 
@@ -217,14 +230,24 @@ Completed the following:
 
 All five foundational lab sections have been documented with configuration steps, screenshots, and verification results.
 
-Additional Active Directory administration and troubleshooting exercises will be added as the lab develops.
+### Troubleshooting Progress
 
+- **Scenario 01 — Disabled User Account:** Completed. Diagnosed a failed domain login, identified a disabled employee account, restored access, and verified successful authentication using `whoami`.
+- **Scenario 02 — Account Lockout:** Planned
+- **Scenario 03 — Expired Password:** Planned
+- **Scenario 04 — Shared Folder Permissions:** Planned
+- **Scenario 05 — Group Policy Troubleshooting:** Planned
+- **Scenario 06 — Domain Trust Failure:** Planned
+
+Additional Active Directory troubleshooting exercises will be completed and documented as the lab develops.
+
+---
 
 ## Project Outcomes
 
 Successfully designed, deployed, and administered a virtualized Active Directory environment using Windows Server 2025, Windows 11 Pro, and ZimaOS.
 
-The environment simulates a small business IT infrastructure with centralized user authentication, organizational management, DNS services, and Group Policy administration.
+The environment simulates a small business IT infrastructure with centralized user authentication, organizational management, DNS services, Group Policy administration, and practical help-desk troubleshooting.
 
 ### Key Accomplishments
 
@@ -244,10 +267,14 @@ The environment simulates a small business IT infrastructure with centralized us
 
 - **Group Policy Management:** Created, linked, deployed, and verified two Group Policy Objects controlling workstation logon notices and department-specific Windows restrictions.
 
-- **Technical Documentation:** Documented server deployment, configuration procedures, troubleshooting, verification results, and administrative tasks using GitHub.
+- **Account Troubleshooting:** Reproduced an employee authentication failure caused by a disabled Active Directory account, identified the root cause, restored account access, and verified successful domain authentication.
+
+- **Technical Documentation:** Documented server deployment, configuration procedures, troubleshooting steps, verification results, and administrative tasks using GitHub.
 
 ### Final Result
 
-Completed five foundational Active Directory lab sections demonstrating practical experience with Windows Server administration, Active Directory, DNS, user provisioning, security groups, domain authentication, and Group Policy.
+Completed five foundational Active Directory configuration sections and the first of six planned troubleshooting scenarios.
+
+Demonstrated practical experience with Windows Server administration, Active Directory, DNS, user provisioning, security groups, domain authentication, Group Policy, and user account troubleshooting.
 
 The project provides documented examples of skills relevant to entry-level IT help desk, desktop support, and junior systems administration positions.
