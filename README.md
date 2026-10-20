@@ -148,7 +148,13 @@ Verified that the policy applied to the Sales domain account and confirmed the a
 
 The project is organized into five sections:
 
-1. Windows Server Setup
+
+### 01 - Windows Server Setup
+
+Deployed Windows Server 2025 Standard Evaluation in ZimaVM, configured virtual hardware, resolved a UEFI boot issue, completed installation, and configured the ACME-DC01 server.
+
+[View Windows Server Setup Documentation](01-Windows-Server-Setup/README.md)
+
 2. Active Directory Configuration
 3. Users and Security Groups
 4. Domain-Joined Workstation
