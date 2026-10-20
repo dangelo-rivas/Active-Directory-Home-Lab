@@ -155,7 +155,15 @@ Deployed Windows Server 2025 Standard Evaluation in ZimaVM, configured virtual h
 
 [View Windows Server Setup Documentation](01-Windows-Server-Setup/README.md)
 
-2. Active Directory Configuration
+
+### 02 - Active Directory Configuration
+
+Installed Active Directory Domain Services (AD DS) on Windows Server 2025 and promoted ACME-DC01 to a domain controller for the ad.acme.test domain.
+
+Configured and verified Active Directory DNS, confirmed LDAP SRV records, and created Organizational Units for IT, Human Resources, Finance, and Sales.
+
+[View Active Directory Configuration Documentation](02-Active-Directory-Configuration/README.md)
+
 3. Users and Security Groups
 4. Domain-Joined Workstation
 5. Group Policy Management
