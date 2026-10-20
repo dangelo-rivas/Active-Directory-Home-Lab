@@ -194,7 +194,7 @@ Created and deployed two Active Directory Group Policy Objects (GPOs) to central
 [View Group Policy Management Documentation](05-Group-Policy-Management/README.md)
 
 
-Each section will include configuration steps, screenshots, verification results, and skills demonstrated.
+Each section includes configuration steps, screenshots, verification results, and skills demonstrated.
 
 
 ## Project Status
@@ -218,3 +218,36 @@ Completed the following:
 All five foundational lab sections have been documented with configuration steps, screenshots, and verification results.
 
 Additional Active Directory administration and troubleshooting exercises will be added as the lab develops.
+
+
+## Project Outcomes
+
+Successfully designed, deployed, and administered a virtualized Active Directory environment using Windows Server 2025, Windows 11 Pro, and ZimaOS.
+
+The environment simulates a small business IT infrastructure with centralized user authentication, organizational management, DNS services, and Group Policy administration.
+
+### Key Accomplishments
+
+- **Windows Server Administration:** Installed and configured Windows Server 2025 as a domain controller within a virtualized environment.
+
+- **Active Directory Deployment:** Installed Active Directory Domain Services and created the `ad.acme.test` domain.
+
+- **DNS Administration:** Configured Active Directory DNS and verified domain controller discovery using DNS and LDAP SRV records.
+
+- **User Management:** Created eight simulated employee accounts across IT, Human Resources, Finance, and Sales.
+
+- **Security Group Management:** Created departmental Global Security Groups and assigned employee memberships.
+
+- **Domain Administration:** Joined a Windows 11 Pro workstation to Active Directory and organized the computer account into a dedicated Organizational Unit.
+
+- **Authentication Verification:** Successfully authenticated domain users and verified group membership and domain controller discovery using `whoami`, `whoami /groups`, and `nltest`.
+
+- **Group Policy Management:** Created, linked, deployed, and verified two Group Policy Objects controlling workstation logon notices and department-specific Windows restrictions.
+
+- **Technical Documentation:** Documented server deployment, configuration procedures, troubleshooting, verification results, and administrative tasks using GitHub.
+
+### Final Result
+
+Completed five foundational Active Directory lab sections demonstrating practical experience with Windows Server administration, Active Directory, DNS, user provisioning, security groups, domain authentication, and Group Policy.
+
+The project provides documented examples of skills relevant to entry-level IT help desk, desktop support, and junior systems administration positions.
