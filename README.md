@@ -164,7 +164,15 @@ Configured and verified Active Directory DNS, confirmed LDAP SRV records, and cr
 
 [View Active Directory Configuration Documentation](02-Active-Directory-Configuration/README.md)
 
-3. Users and Security Groups
+
+### 03 - Users and Security Groups
+
+Created eight simulated employee accounts across IT, Human Resources, Finance, and Sales in the `ad.acme.test` domain.
+
+Organized accounts into departmental Organizational Units, created Global Security Groups, assigned departmental memberships, and verified group membership using Active Directory Users and Computers and Windows command-line tools.
+
+[View Users and Security Groups Documentation](03-Users-and-Security-Groups/README.md)
+
 4. Domain-Joined Workstation
 5. Group Policy Management
 
