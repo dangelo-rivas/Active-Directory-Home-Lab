@@ -173,7 +173,15 @@ Organized accounts into departmental Organizational Units, created Global Securi
 
 [View Users and Security Groups Documentation](03-Users-and-Security-Groups/README.md)
 
-4. Domain-Joined Workstation
+
+### 04 - Domain-Joined Workstation
+
+Joined the Windows 11 Pro workstation `ACME-PC-001` to the `ad.acme.test` Active Directory domain and moved its computer account into the `ACME Computers` Organizational Unit.
+
+Verified domain user authentication with `ACME\mtorres`, confirmed IT security group membership using `whoami /groups`, and successfully discovered the domain controller using `nltest`.
+
+[View Domain-Joined Workstation Documentation](04-Domain-Joined-Workstation/README.md)
+
 5. Group Policy Management
 
 Each section will include configuration steps, screenshots, verification results, and skills demonstrated.
